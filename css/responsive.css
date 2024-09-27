@@ -1,44 +1,44 @@
 @media (max-width: 480px) {
-    h1 {
-        font-size: 3;
+  h1 {
+    font-size: 3;
+  }
+
+  h3.title {
+    font-weight: bolder;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .row .col {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .text {
+    font-size: 1.3rem;
+  }
+
+  .steps {
+    margin-bottom: 0;
+  }
+
+  .why-us {
+    padding-top: 3rem;
+    margin-bottom: 0;
+    background-color: #181818;
+
+    h2 {
+      font-size: 3rem;
     }
 
-    h3.title {
-        font-weight: bolder;
+    h3 {
+      font-size: 2rem;
     }
 
-    .row {
-        flex-direction: column;
+    p {
+      font-size: 1.2rem;
     }
-
-    .row .col {
-        width: 100%;
-        padding: 1rem;
-    }
-
-    .text {
-        font-size: 1.3rem;
-    }
-
-    .steps {
-        margin-bottom: 0;
-    }
-
-    .why-us {
-        padding-top: 3rem;
-        background-color: #181818;
-
-        h2 {
-            font-size: 3rem;
-        }
-
-        h3 {
-            font-size: 2rem;
-        }
-
-        p {
-            font-size: 1.2rem;
-        }
-    }
-
+  }
 }
